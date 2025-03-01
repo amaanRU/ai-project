@@ -1,4 +1,3 @@
-
 class BinaryHeap:
     def __init__(self):
         self.heap = []
@@ -12,9 +11,12 @@ class BinaryHeap:
             return None
         if len(self.heap) == 1:
             return self.heap.pop()
+        
         root = self.heap[0]
         self.heap[0] = self.heap.pop()
-        self._heapify_down(0)
+        # edge case to check if heap is empty before accessing self.heap[0]
+        if self.heap:
+            self._heapify_down(0)
         return root
     
     def _heapify_up(self, index):
