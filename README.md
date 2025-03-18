@@ -6,46 +6,29 @@ This project visualizes different A* search variants in a grid environment. The 
 ## Visualizations of A* Search Variants
 
 ### Repeated Forward A*
-<div align="center">
-  <table>
-    <tr>
-      <th>Traversal</th>
-      <th>Reconstructed Path</th>
-    </tr>
-    <tr>
-      <td><img src="assets/Repeated%20Forward%20A*.gif" width="90%"></td>
-      <td><img src="assets/Repeated%20Forward%20A*%20Path.png" width="90%"></td>
-    </tr>
-  </table>
-</div>
+
+<p align="center">
+  <img src="assets/Repeated%20Forward%20A*.gif" width="49%">
+  <img src="assets/Repeated%20Forward%20A*%20Path.png" width="49%">
+</p>
+
+---
 
 ### Repeated Backward A*
-<div align="center">
-  <table>
-    <tr>
-      <th>Traversal</th>
-      <th>Reconstructed Path</th>
-    </tr>
-    <tr>
-      <td><img src="assets/Repeated%20Backward%20A*.gif" width="90%"></td>
-      <td><img src="assets/Repeated%20Backward%20A*%20Path.png" width="90%"></td>
-    </tr>
-  </table>
-</div>
+
+<p align="center">
+  <img src="assets/Repeated%20Backward%20A*.gif" width="49%">
+  <img src="assets/Repeated%20Backward%20A*%20Path.png" width="49%">
+</p>
+
+---
 
 ### Adaptive A*
-<div align="center">
-  <table>
-    <tr>
-      <th>Traversal</th>
-      <th>Reconstructed Path</th>
-    </tr>
-    <tr>
-      <td><img src="assets/Adaptive%20A*.gif" width="90%"></td>
-      <td><img src="assets/Adaptive%20A*%20Path.png" width="90%"></td>
-    </tr>
-  </table>
-</div>
+
+<p align="center">
+  <img src="assets/Adaptive%20A*.gif" width="49%">
+  <img src="assets/Adaptive%20A*%20Path.png" width="49%">
+</p>
 
 ---
 
