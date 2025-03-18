@@ -264,12 +264,12 @@ if repeated_path:
 """
 
 path_forward_astar, _, _ = repeated_forward_astar(grid, (0,0), (100,100))
-grid_visualized(grid, path=path_forward_astar, path_color="blue", path_label="Repeated A*")
+grid_visualized(grid, path=path_forward_astar, path_label="Repeated A*", algorithm_name="Repeated A*")
 
 path_backward_astar, _, _ = repeated_backward_astar(grid, (0,0), (100,100))
-grid_visualized(grid, path=path_backward_astar, path_color="green", path_label="Backward A*")
+grid_visualized(grid, path=path_backward_astar, path_label="Backward A*", algorithm_name="Repeated Backward A*")
 
 path_adaptive_astar, _, _ = adaptive_astar(grid, (0,0), (100,100))
-grid_visualized(grid, path=path_adaptive_astar, path_color="red", path_label="Adaptive A*")
+grid_visualized(grid, path=path_adaptive_astar, path_label="Adaptive A*", algorithm_name="Adaptive A*")
 
 
