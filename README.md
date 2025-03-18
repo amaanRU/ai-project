@@ -6,24 +6,30 @@ This project visualizes different A* search variants in a grid environment. The 
 ## Visualizations of A* Search Variants
 
 ### Repeated Forward A*
-**Animation:**
+**Grid Traversal:**
+
 ![Repeated Forward A*](assets/Repeated%20Forward%20A*.gif)
 
 **Reconstructed Path:**
+
 ![Repeated Forward A* Reconstructed Path](assets/Repeated%20Forward%20A*%20Path.png)
 
 ### Repeated Backward A*
-**Animation:**
+**Grid Traversal:**
+
 ![Repeated Backward A*](assets/Repeated%20Backward%20A*.gif)
 
 **Reconstructed Path:**
+
 ![Repeated Backward A* Reconstructed Path](assets/Repeated%20Backward%20A*%20Path.png)
 
 ### Adaptive A*
-**Animation:**
+**Grid Traversal:**
+
 ![Adaptive A*](assets/Adaptive%20A*.gif)
 
 **Reconstructed Path:**
+
 ![Adaptive A* Reconstructed Path](assets/Adaptive%20A*%20Path.png)
 
 ---
