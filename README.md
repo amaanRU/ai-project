@@ -1,4 +1,4 @@
-# Fast Trajectory Replanning
+# Fast Trajectory Replanning - Introduction to Artificial Intelligence 01:198:440
 ### Developed by Amaan Dar
 
 This project visualizes different A* search variants in a grid environment. The agent dynamically explores the grid using Repeated Forward A* search, Repeated Backward A* search, and Adaptive A* search.
